@@ -93,9 +93,25 @@ fraud-traffic-anomaly-detection
 
 ## Key Findings
 
-(To be completed)
+**Conclusion & Final Assessment**  
+Based on the multi-layered analysis of the traffic logs, I have identified e.com and c.com as sites exhibiting definitive signs of non-human, fraudulent activity. The remaining sites (a, b, d, f, g) show healthy, organic patterns consistent with genuine global user behavior.
 
-This section will summarize the main insights discovered during the investigation and highlight domains that exhibit abnormal or suspicious traffic patterns.
+**Summary of Fraudulent Patterns Identified:**
+
+•	Infrastructure Clustering (The "Smoking Gun"): 
+90% to 95% of traffic for the suspicious sites originates from a single class-C subnet (52.23.63.x). Specifically, for e.com, a single IP address accounts for 75% of all site activity. This is a clear signature of a Data Center / Bot-farm rather than a residential ISP distribution.
+
+•	**Behavioral Anomalies (Time & Velocity):**
+e.com displays artificial, scheduled "bursts" of activity at specific hours (06:00, 13:00, 19:00), while c.com shows an unnaturally flat distribution. Neither site follows the standard "daylight wave" (circadian rhythm) seen in organic human traffic.
+
+•	**Technical Homogeneity:**
+The near-total absence of mobile operating systems (Android/iOS diversity) on these sites, combined with a monolithic Windows/Desktop profile, suggests the use of headless browsers or virtual machines configured with identical environments to scrape data or inflate traffic metrics.
+
+•	**Low User Authenticity:**
+The extremely low count of unique UserIds relative to the total volume of events confirms high-frequency repetitive actions. The discovery of multiple User IDs sharing the same IP address only on these specific domains suggests cookie-cycling techniques used by bots to bypass basic frequency capping.
+
+**Final Verdict:**
+The traffic on e.com and c.com is highly synthetic and should be flagged as SIVT (Sophisticated Invalid Traffic). This activity is likely driven by automated scripts focused on data scraping or ad-impression fraud, originating from a centralized US-based server infrastructure.
 
 ---
 
