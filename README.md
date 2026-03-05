@@ -77,8 +77,6 @@ fraud-traffic-anomaly-detection
 │   ├── schema.sql
 │   └── analysis_queries.sql
 │
-├── analysis/
-│
 ├── charts/
 │
 └── README.md
@@ -86,14 +84,12 @@ fraud-traffic-anomaly-detection
 
 * **data/** – raw dataset used for analysis
 * **sql/** – SQL schema and analysis queries
-* **analysis/** – additional analysis artifacts (if applicable)
 * **charts/** – visualizations generated during analysis
 
 ---
 
-## Key Findings
+## Conclusion & Final Assessment
 
-**Conclusion & Final Assessment**  
 Based on the multi-layered analysis of the traffic logs, I have identified e.com and c.com as sites exhibiting definitive signs of non-human, fraudulent activity. The remaining sites (a, b, d, f, g) show healthy, organic patterns consistent with genuine global user behavior.
 
 **Summary of Fraudulent Patterns Identified:**
