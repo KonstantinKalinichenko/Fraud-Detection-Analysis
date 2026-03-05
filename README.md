@@ -71,7 +71,7 @@ SQL queries were used to aggregate and filter the dataset, while Excel was used 
 fraud-traffic-anomaly-detection
 │
 ├── data/
-│   └── traffic_sample.csv
+│   └── traffic_logs.csv
 │
 ├── sql/
 │   ├── schema.sql
